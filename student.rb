@@ -78,3 +78,23 @@ class Team
   end
 
 end
+
+
+# class Library
+
+#   def initialize(library) #why can't add 3 arguments?
+#     @library = library
+#   end
+
+#   def list_details
+#     return "@library.keys, #{@library[:lord_of_the_rings][:student_name]}, #{@library[:lord_of_the_rings][:date]}"
+#   end
+
+#   def return_borrower(book)
+#     return "#{@library[:lord_of_the_rings][:student_name]}, #{@library[:lord_of_the_rings][:date]}"
+#   end
+
+
+
+
+# end
