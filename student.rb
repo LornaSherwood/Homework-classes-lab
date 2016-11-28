@@ -34,14 +34,14 @@ end
 
 class Team
 
-  def initialize(team_name, member_names, coach_name, points )
+  def initialize(team_name, member_names, coach_name)
     @team_name = team_name
     @member_names = member_names
     @coach_name = coach_name
-    @points = points
+    @points = 0
   end
 
-  @points = 0
+  
 
   def get_team_name
     return @team_name
